@@ -10,6 +10,9 @@ STYLE GUIDE
 5. FORM
 6. ANIMATIONS
 --------------------
+COLORS
+--------------------
+AZUL NAVBAR -> #0065a5
 */
 
 /* -------- 0. RESET  --------*/
@@ -63,6 +66,9 @@ table {
 }
 
 /* -------- 1. lAYOUT  --------*/
+.navbar{
+	background-color:  #0065a5;
+}
 /* -------- 2. GENERIC ITEM  --------*/
 /* -------- 3. PART OF WEB  --------*/
 /* -------- 4. LIST  --------*/
