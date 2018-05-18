@@ -30,13 +30,13 @@
 			<i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
 		</div>
 	</header>
-	<nav class="navbar navbar-expand-lg navbar-dark">
+	<nav class="navbar navbar-expand-lg justify-content-end">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="nav justify-content-end">
       <li class="nav-item active">
         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -58,7 +58,7 @@
 	</section>
 	<section class="general_services" id="general_services">
 		<h2>General Service</h2>
-		<div class="row">
+		<div class="row " align="center">
 			<figure class="col-md-3">
 			<img src="http://via.placeholder.com/305x193" alt="">
 		</figure>
@@ -142,24 +142,22 @@
 	</section>
 	<section class="quote" id="quote">
 		<h2>Get Your Free Quote</h2>
-		<form action="#" class="form-control">
-			<label for="name">Name</label>
-			<input type="text" id="name">
-			<label for="email">Email address</label>
-			<input type="text" id="email">
-			<label for="phone">Phone number</label>
-			<input type="text" id="phone">
-			<label for="service">Service</label>
-			<select name="service" id="service">
+		<div>
+		<form action="#" class="form-group">
+			<input class="form-control" type="text" id="name" placeholder="Name">
+			<input class="form-control"  type="text" id="email" placeholder="Email Address">
+			<input class="form-control"  type="text" id="phone" placeholder="Phone number">
+			<select  class="form-control"  name="service" id="service" placeholder="Select Service">
+				<option value="">Select Service</option>
 				<option value="">a</option>
 				<option value="">b</option>
 				<option value="">c</option>
 				<option value="">d</option>
 			</select>
-			<label for="zip">ZIP code</label>
-			<input type="text" id="zip">
-			<input type="submit" placeholder="Get Your Free Quote">
+			<input  class="form-control" type="text" id="zip" placeholder="ZIP code">
+			<button type="submit" class="btn btn-primary">Get Your Free Quote</button>
 		</form>
+		</div>
 		<div class="row">
 			<div class="col-md-4">
 			<p><i class="fa fa-map-marker"></i>address</p>

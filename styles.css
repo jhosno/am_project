@@ -72,6 +72,12 @@ footer{
 nav{
 	background:#0065a5; 
 }
+	nav-item {
+		text-align: right;
+		align-content: right;
+		align-items: right;
+
+	}
 h3{
 	color: #0065a5;
 }
@@ -82,12 +88,18 @@ h3{
 	background-size: cover;
 	height: 551px;
 }
-.navbar-nav{
-	display: flex; justify-content: center; align-items: right;
+nav ul li a{
+	color: #fff;
+}
+.general_services{
+	align-content: center;
+	justify-content: center;
+	align-items: center;
 }
 .about_us{
 	background:  #0065a5 ;
 	color: #fff;
+
 }
 .quote {
 	background:  #0065a5 ;
