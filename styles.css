@@ -22,12 +22,12 @@ AZUL NAVBAR -> #0065a5
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, 
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -49,9 +49,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -66,11 +64,37 @@ table {
 }
 
 /* -------- 1. lAYOUT  --------*/
-.navbar{
-	background-color:  #0065a5;
+	body{text-align: center;}
+footer{
+	background: #0065a5;
+	color: #fff;
 }
+h3{
+	color: #0065a5;
+}
+
 /* -------- 2. GENERIC ITEM  --------*/
+.header_img{
+	background: url(imgs/header_img.png) no-repeat center top;
+	background-size: cover;
+	height: 551px;
+}
+.navbar-nav{
+	display: flex; justify-content: center; align-items: right;
+}
+.about_us{
+	background:  #0065a5 ;
+	color: #fff;
+}
+.quote {
+	background:  #0065a5 ;
+	color: #fff;
+}
+
 /* -------- 3. PART OF WEB  --------*/
+.about_us h1{
+	color: #fff;
+}
 /* -------- 4. LIST  --------*/
 /* -------- 5. FORM  --------*/
 /* -------- 6. ANIMATIONS  --------*/
